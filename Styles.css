@@ -1,0 +1,247 @@
+:root{
+
+
+    /*Oscuros principales*/
+    
+    --pitBlack: #020202;
+    --blackGrey: #19191a;
+    --trueGrey: #373739;
+    --amarilloso: #d29e00;
+    --rojoprincipal: #f80000;
+
+    /*Claros principales*/
+
+    --azureWhite: #f0ffff;
+    --aliceBlue: #f0f8ff;
+    --aqua: #00ffff;
+    --trueBlue: #0000ff;
+    --bluePrincipal: rgba(73,155,234,1);
+    --lilita: #3e065f;
+    --bred: hsl(12, 88%, 59%);
+    --dblue: hsl(288, 39%, 23%);
+    --grisclaro:#e0e0e0;
+
+
+}
+
+
+
+
+html{
+    font-size:  62.5%;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+*,*::before, *:after{
+    box-sizing: inherit;
+}
+
+
+/*Botones*/
+
+.boton--primario {
+    background-color: var(--rojoprincipal);
+}
+.boton--secundario {
+    background-color: var(--lilita);
+}
+
+.controls{
+    position: fixed;
+    top: 2rem;
+    right: 2rem;
+}
+
+
+/*Formulario*/
+
+
+
+.formulario {
+    margin: -5rem auto 0 auto;
+    width: 95%;
+    padding: 5rem;
+}
+.campo {
+    display: flex;
+    margin-bottom: 2rem;
+}
+.campo__label {
+    flex: 0 0 9rem;
+    text-align: right;
+    padding-right: 2rem;
+}
+.campo__field {
+    flex: 1;
+    border: 1px solid var(--gris);
+}
+.campo__field--textarea {
+    height: 20rem;
+}
+
+.error{
+    background-color: red;
+    padding: 1rem .5rem;
+    text-align: center;
+    color: var(--lilita);
+}
+
+
+/*Header*/
+
+header{
+    background-color:var(--bluePrincipal);
+    margin-left: 1rem;
+    margin-right: 3rem;
+    margin-top: 1rem;
+    border-radius: 2.5rem;
+}
+.menu{
+    display:none;
+    } 
+    .nav-container{
+        display: flex;
+        justify-content: space-around;
+        width: 90%;
+        margin: 40px auto ;
+        max-width: 1110px;
+    }
+    
+    li a{
+        font-size: 1.5rem;
+        color: var(--rojoprincipal);
+    }
+    @media (min-width:768px){
+        .menu{
+            display: flex;
+            flex-direction: row;
+        }
+        .toggle{
+            display: none;
+        }
+    }
+
+
+/* Titulos*/
+h1, h2, h3{
+    text-align: center;
+    color: var(--bluePrincipal);
+}
+h1{
+    font-size: 4rem;
+}
+h2{
+    font-size:3rem ;
+}
+h3{
+    font-size: 2.5rem;
+}
+/* Span */
+span{
+    color: var(--bluePrincipal);
+    font-size: 2rem;
+}
+
+.logo img{
+    margin-right: 0;
+    text-align: center;
+    background-repeat: no-repeat;
+    height: 25rem;
+    width: 25rem;
+    background-size: cover;
+    margin-top: 0rem;
+}
+
+.header{
+display: flex;
+}
+
+main{
+
+    background-color: var(--grisclaro);
+    margin-top: 1.5rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    width: 95%;
+    padding: 5rem;
+    border-radius: 5rem;
+    display: flex;
+    flex-direction: column;
+    
+}
+/* MENU*/
+
+
+
+
+    /* Botones */
+
+    .btn{
+        background-color: var();
+        color: var();
+        padding: 1rem 3rem;
+        border-radius: 30px;
+        font-weight: 500;
+        }
+        
+        .btn-nav{
+            display: none;
+        }
+        .toggle{
+            border: none;
+            background: none;
+        }
+
+        /*Principal*/
+        .principal{
+            display: flex;
+            text-align: center;
+            justify-content: center;
+            justify-items: center;
+        }
+
+
+    /* Tabla*/
+    .tabla{
+        border-collapse: collapse;
+        width: 100%;
+       
+    }
+    th{
+        background-color: var(--trueBlue);
+    }
+    td, th{
+        border: 0.3rem solid black;
+        text-align: left;
+        padding: 2rem;
+    }
+    tr:nth-child(even){
+        background-color: var(--aqua);
+    }
+    tr:hover {
+        background-color:var(--rojoprincipal) ;
+    }
+    .boton2 {
+        background-color: var(--lilita);
+        color:var(--aliceBlue);
+        padding:1rem 3rem;
+        text-decoration: none;
+        text-transform:uppercase;
+        font-weight:bold;
+        border: none;
+        border-radius: .5rem;
+        width:90%;
+        text-align:center;
+    }
+    .boton2:hover{
+        background-color:var(--trueBlue);
+    }
+    
+    p{
+        font-size: 1.5rem;
+        margin-top: 4rem;
+
+    }
+
+   
+    

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="UTF-8">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="./Styles.css">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200;0,400;1,700&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css" integrity="sha384-BY+fdrpOd3gfeRvTSMT+VUZmA728cfF9Z2G42xpaRkUGu2i3DyzpTURDo5A6CaLK" crossorigin="anonymous">
+    </head>
+    <header>
+        <nav>
+            <div class="header">
+
+                <div class="logo">
+                    <img src="./images/logoBlack.png" alt="">
+                </div>
+                <div class="nav-container">
+                    <div class="menu" id="menu">
+                        <ul>
+                            <li><a href="./index.html">Inicio</li>
+                                <li><a href="./formulario.html">Contáctame</li>
+                                </ul>
+                            </div>
+                            <a href="#" class="btn btn-nav">Get Started</a>
+                            <button class="toggle" id="toggle">
+                                <img id="toggle-icon" src="./images/icon-hamburger.svg" alt="">
+                            </button>
+                        </div>
+                    </div>
+                </nav>
+                    </header>
+<main>
+    <h3 class="centrar-texto">Contacto</h3>
+
+        <div class="contacto-bg"></div>
+
+        <form class="formulario">
+            <div class="campo">
+                <label class="campo__label" for="nombre"><span>Nombre</span></label>
+                <input 
+                    class="campo__field"
+                    type="text" 
+                    placeholder="Tu Nombre" 
+                    id="nombre"
+                >
+            </div>
+            <div class="campo">
+                <label class="campo__label" for="email"><span>E-mail</span></label>
+                <input 
+                    class="campo__field"
+                    type="email" 
+                    placeholder="Tu E-mail" 
+                    id="email"
+                >
+            </div>
+            <div class="campo">
+                <label class="campo__label" for="mensaje"><span>Mensaje</span></label>
+                <textarea 
+                    class="campo__field campo__field--textarea"
+                    id="mensaje"
+                ></textarea>
+            </div>
+
+            <div class="campo">
+                <input type="submit" value="Enviar" class="boton boton--primario">
+            </div>
+        </form>
+
+        <script src="./Javaform.js"></script>
+    
+
+
+
+
+</main>
